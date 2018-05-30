@@ -1,0 +1,132 @@
+body{
+	background-color: #FFCD98;
+	color: #ED2F00;
+	font-family: 'Cambria';
+}
+
+.content{
+	width: 95%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+header{
+	background-image: linear-gradient(to left, rgba(255, 195, 195), rgba(220, 249, 234, .5) 100%), url(dist/img/VS7m54NhTno.jpg);;
+	width: 100%;
+	height: 165px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-top: 10px;
+	border: 2px solid #FFCDCD;
+	font-family: 'KaushanScript';
+}
+
+h1{
+	text-align: right;
+	font-size: 88px;
+	letter-spacing: 4px;
+	margin: 15px 90px;
+}
+
+header input{
+	float: right;
+	margin: 5px 100px;
+	width: 160px;
+	border: 1px solid red;
+	height: 25px;
+	background-color: #FFC7C7;
+	border-radius: 10px;
+	background-image: url(dist/img/search.png);
+	background-repeat: no-repeat;
+	background-position: 8px 6px;
+	padding-left: 25px;
+}
+
+.main{
+	margin: 20px auto 50px;
+}
+
+.left-aside{
+	width: 20%;
+	margin-left: 5px;
+	float: left;
+}
+
+.left-aside ul li a{
+	text-decoration: none;
+	display: block;
+	height: 65px;
+	width: 180px;
+	text-align: center;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 2px solid #FF6600;
+	background-color: #ED2F00;
+	color: #FFCDCD;
+	margin-bottom: 5px;
+	padding-top: 20px;
+	font-size: 20px;
+	border-radius: 15px;
+	font-weight: bold;
+}
+
+.left-aside ul li a:hover{
+	background-color: #FFCDCD;
+	color: #ED2F00;
+}
+
+.main-content{
+	width: 79%;
+	float: right;
+	font-size: 20px;
+	line-height: 1.2;
+}
+
+.main-content img{
+	width: 100%;
+	height: auto;
+	margin: 20px 0;
+}
+
+.main-content .it{
+	font-style: italic;
+}
+
+footer{
+	margin-top: auto;
+	height: 60px;
+	border-top: 2px solid #B0C4DE;
+	padding-top: 10px;
+}
+
+footer .socio{
+	width: 20%;
+	margin-left: 1%;
+	font-size: 18px;
+}
+
+footer .socio a{
+	display: inline-block;
+	text-decoration: none;
+	width: 32px;
+	height: 32px;
+	margin-right: 5px;
+	background-repeat: no-repeat;
+}
+
+footer .socio a.bgi-inst{
+	background-image: url(dist/img/instagram.png);
+}
+
+footer .socio a.bgi-tw{
+	background-image: url(dist/img/twitter.png);
+}
+
+footer p{
+	text-align: right;
+	font-style: italic;
+}
